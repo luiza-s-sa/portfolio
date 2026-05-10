@@ -53,7 +53,9 @@ header {
 .menu a:hover {
   color: #8B5CF6;
 }
-
+.js-menu-btn {
+  display: none;
+}
 
 /* Barra de rolagem */
 ::-webkit-scrollbar {
