@@ -401,10 +401,14 @@ footer .separador {
     font-size: 32px;
   }
 
+  .container-intro {
+    height: auto;
+    padding-bottom: 250px;
+  }
   .image-coding {
     top: 300px;
     max-width: 100%;
-    max-height: 50vh;
+    max-height: 350px;
     width: calc(100% - 50px);
     object-fit: cover;
     object-position: center;
