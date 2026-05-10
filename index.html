@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Antonio:wght@100..700&family=Noto+Sans+Mono:wght@100..900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+  <script src="js/script.js" type="module" defer></script>
+  <link rel="icon" href="img/LS-2.png" type="image/png">
+  <title>Luiza Sá - Desenvolvedora Front End</title>
+</head>
+<body>
+  <header>
+    <div id="header-container" class="js-header">
+      <a class="title" href="#container-intro">&lt;LS&gt;</a>
+      <nav class="menu">
+        <button class="js-menu-btn" aria-expanded="false" aria-controls="menu"></button>
+        <ul id="menu" class="js-menu-list">
+          <li>
+            <a href="#container-about">Sobre</a>
+          </li>
+          <li>
+            <a href="#container-portfolio">Portfólio</a>
+          </li>
+          <li>
+            <a target="_blank" rel="noopener noreferrer" href="https://github.com/luiza-s-sa">Github</a>
+          </li>
+          <li>
+            <a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/luizassa/">Linkedin</a>
+          </li>
+          <li>
+            <a class="btn-contact" target="_blank" rel="noopener noreferrer" href="https://wa.me/message/222CUARQY7NJL1">Entre em Contato</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  <main>
+    <section id="container-intro">
+      <div class="content">
+        <div class="intro">
+          <h2>Desenvolvedora Front-End ////</h2>
+          <h3>Javascript, HTML, CSS</h3>
+        </div> 
+        <img src="img/code-dark.jpg" alt="Luiza Sá Front-End Jr." class="image-coding">   
+      </div>
+      <div class="image-stripes">
+        <img src="img/stripes.png" alt="Luiza Sá Front-End Jr." class="stripes-top">   
+        <img src="img/stripes.png" alt="Luiza Sá Front-End Jr." class="stripes-bottom">  
+      </div> 
+      <div class="scroll-indicator">
+        <i class="fa-solid fa-chevron-down"></i>
+      </div>
+    </section>
+    <section id="container-about">
+      <div class="content js-content hidden-left">
+        <h2>Sobre ////</h2>
+        <h3>Desenvolvedora Front End Jr.</h3>
+        <p>Me chamo <span>Luiza Sá</span>, sou arquiteta e urbanista formada pela UFRGS e estou em transição de carreira para o desenvolvimento front-end.</p>
+        <p>Foi durante minha trajetória na arquitetura que descobri a programação: ao deixar os projetos tradicionais e passar a desenvolver templates de padrões para escritórios, comecei a editar códigos e percebi que aquilo me interessava. Esse contato despertou uma curiosidade que <span>me levou a começar a estudar a área de forma mais dedicada</span>.</p>
+        <p>A <span>escolha pelo front-end foi natural</span>. Minha formação me deu um olhar apurado para design, composição visual e experiência do usuário — habilidades que se traduzem naturalmente para a interface entre código e estética. Hoje sigo estudando e aprofundando meus conhecimentos na área, e estou convicta de que foi a <span>escolha certa</span>.</p>
+      </div>
+    </section>
+    <section id="container-portfolio">
+      <div class="content js-content hidden-right">
+        <h2>Portfolio ////</h2>
+        <h3>Projetos</h3>
+      </div>
+      <div class="projects">
+        <ul>
+          <li>
+            <a href="https://luiza-s-sa.github.io/animais-fantasticos/" target="_blank" rel="noopener noreferrer">
+              <img src="img/animais-fantasticos.jpg" alt="Projeto Animais Fantásticos do curso de Javascript da Origamid">
+              <div class="project-description">
+                <h4>Animais Fantásticos</h4>
+                <p>Projeto desenvolvido a partir do curso de JavaScript ES6+ completo da Origamid.</p>
+                <div class="arrow"><i class="fa-solid fa-square-caret-right"></i></div>
+              </div>
+            </a>
+          </li>
+          <li>
+            <a href="https://luiza-s-sa.github.io/pagina-login/" target="_blank" rel="noopener noreferrer">
+              <img src="img/pagina-login.jpg" alt="Projeto pessoal de página de login">
+              <div class="project-description">
+                <h4>Página de Login</h4>
+                <p>Primeiro projeto desenvolvido após a conclusão do curso de Javascript, feito para colocar em prática de forma independente alguns dos conhecimentos adquiridos no curso.</p>
+                <div class="arrow"><i class="fa-solid fa-square-caret-right"></i></div>
+              </div>
+            </a>
+          </li>
+          <li>
+            <a href="https://luiza-s-sa.github.io/lista-tarefas/" target="_blank" rel="noopener noreferrer">
+              <img src="img/lista-tarefas.jpg" alt="Projeto pessoal de lista de tarefas">
+              <div class="project-description">
+                <h4>Lista de Tarefas</h4>
+                <p>Projeto independente desenvolvido utilizando funcionalidades de local storage.</p>
+                <div class="arrow"><i class="fa-solid fa-square-caret-right"></i></div>
+              </div>
+            </a>
+          </li>
+        </ul>
+      </div>
+        <div class="image-stripes">
+          <img src="img/stripes.png" alt="Luiza Sá Front-End Jr." class="stripes-top">   
+          <img src="img/stripes.png" alt="Luiza Sá Front-End Jr." class="stripes-bottom">  
+        </div>
+    </section>
+  </main>
+  <footer>
+    <p>Obrigada pela visita! Vamos conversar?</p>
+    <p class="separador">/</p>
+    <div class="footer-links">
+      <a target="_blank" rel="noopener noreferrer" href="https://github.com/luiza-s-sa"><i class="fa-brands fa-github"></i></a>
+      <a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/luizassa/"><i class="fa-brands fa-square-linkedin"></i></a>
+      <a target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/luiza.sa/"><i class="fa-brands fa-square-instagram"></i></a>
+      <button class="copy-email" aria-label="Copiar email">
+        <i class="fa-solid fa-envelope"></i>
+        <span class="tooltip">Copiado!</span>
+      </button>
+    </div>
+    <p class="separador">/</p>
+    <p>© 2026 Luiza Sá</p>
+  </footer>
+</body>
+</html>
